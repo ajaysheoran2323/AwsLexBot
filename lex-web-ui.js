@@ -920,24 +920,25 @@ var configDefault = {
   region: 'us-east-1',
 
   cognito: {
-    // Cognito pool id used to obtain credentials
-    // e.g. poolId: 'us-east-1:deadbeef-cac0-babe-abcd-abcdef01234',
-    poolId: 'us-east-1:545dd4bc-fb45-4164-87f9-7e0d71572706'
+    // 
+	  pool id used to obtain credentials
+    // e.g. poolId: 'us-east-1:deadbeef-cac0-babe-abcd-',
+    poolId: 'us-east-1:545dd4bc-fb45-4164-87f9-xxxxxxxxxxxx'
   },
 
   lex: {
     // Lex bot name
-    botName: 'BMSBOT',
+    botName: 'BOT',
 
     // Lex bot alias/version
     botAlias: '$LATEST',
 
     // instruction message shown in the UI
     //edited by ajay kumar////////////////////////////////////////////////////////////
-	//initialText: 'HI. I am a BMS BOT. ' + 'You can start with saying or typing "HI BMS BOT".',
+	//initialText: 'HI. I am a  BOT. ' + 'You can start with saying or typing "HI  BOT".',
 	/////////////////////////////////////////////////////////////////////////////////
     // instructions spoken when mic is clicked
-    initialSpeechInstruction: 'Say "Hi BMS BOT" to get started',
+    initialSpeechInstruction: 'Say "Hi  BOT" to get started',
 
     // Lex initial sessionAttributes
     sessionAttributes: {},
@@ -979,7 +980,7 @@ var configDefault = {
   ui: {
     // TODO may want to move pageTitle out to LexApp or Page component
     // title of HTML page added dynamically to index.html
-    pageTitle: 'BMS BOT',
+    pageTitle: ' BOT',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -996,7 +997,7 @@ var configDefault = {
     toolbarColor: 'green',
 
     // chat window title
-    toolbarTitle: 'BMS BOT',
+    toolbarTitle: ' BOT',
 
     // logo used in toolbar - also used as favicon not specificied
     toolbarLogo: '',
@@ -4830,19 +4831,19 @@ webpackContext.id = 150;
 /* 151 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BMSBOT","initialSpeechInstruction":"Say 'HI BMS BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"BMS BOT","toolbarTitle":"Welcome to BMS BOT"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BOT","initialSpeechInstruction":"Say 'HI BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":" BOT","toolbarTitle":"Welcome to  BOT"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 152 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BMSBOT","initialSpeechInstruction":"Say 'HI BMS BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"","pageTitle":"BMS BOT","toolbarTitle":"Welcome to BMS BOT"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BOT","initialSpeechInstruction":"Say 'HI  BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"","pageTitle":" BOT","toolbarTitle":"Welcome to  BOT"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 153 */
 /***/ (function(module, exports) {
 
-module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BMSBOT","initialSpeechInstruction":"Say 'HI BMS BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":"BMS BOT","toolbarTitle":"Welcome to BMS BOT"},"recorder":{"preset":"speech_recognition"}}
+module.exports = {"cognito":{"poolId":""},"lex":{"botName":"BOT","initialSpeechInstruction":"Say 'HI  BOT' to get started."},"polly":{"voiceId":"Raveena"},"ui":{"parentOrigin":"http://localhost:8080","pageTitle":" BOT","toolbarTitle":"Welcome to  BOT"},"recorder":{"preset":"speech_recognition"}}
 
 /***/ }),
 /* 154 */
