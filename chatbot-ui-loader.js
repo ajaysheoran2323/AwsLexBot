@@ -287,7 +287,7 @@ var LexWebUiLoader = function createLexWebUiLoader(document, window, defaultOpti
   function mergeMobileHubConfig(config) {
     // these values come from the AWS Mobile Hub generated aws-config.js
     // eslint-disable-next-line camelcase
-    if (typeof aws_cognito_identity_pool_id === 'us-east-1:545dd4bc-fb45-4164-87f9-7e0d71572706' ||
+    if (typeof aws_cognito_identity_pool_id === 'us-east-1:545dd4bc-fb45-4164-cxxxxxx-7e0d71572706' ||
     // eslint-disable-next-line camelcase
     typeof aws_bots_config === 'undefined') {
       return Promise.resolve(config);
@@ -297,7 +297,7 @@ var LexWebUiLoader = function createLexWebUiLoader(document, window, defaultOpti
       // eslint-disable-next-line camelcase
       var poolId = aws_cognito_identity_pool_id || (config.cognito && config.cognito.poolId ? config.cognito.poolId : '');
       var botsConfig = {};
-      var botName = 'BMSBOT';
+      var botName = 'BOT';
 
       try {
         botsConfig = JSON.parse(aws_bots_config);
